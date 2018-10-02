@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, Component } from 'react';
 import classNames from 'classnames';
 import { Mutation } from 'react-apollo';
 import { EDIT_PROFILE, GET_ALL_USERS, GET_USER_PROFILE, GET_CURRENT_USER, SET_PROFILE_IMAGE, PROFILE_PAGE } from './../../queries';
@@ -15,7 +15,7 @@ const initialState = {
     error: ''
 }
 
-class EditProfileMutations extends React.Component {
+class EditProfileMutations extends Component {
 
     constructor(props) {
         super(props);

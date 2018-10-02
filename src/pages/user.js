@@ -1,10 +1,10 @@
-import React, { Fragment } from 'react';
+import React, { Component,Fragment } from 'react';
 import { PROFILE_PAGE } from './../queries';
 import { Query } from 'react-apollo';
 import webConfig from './../../webConfig';
 import { Helmet } from 'react-helmet';
 
-class User extends React.Component {
+class User extends Component {
 
     constructor(props) {
         super(props);
