@@ -1,7 +1,7 @@
 {
-  "name": "universal_react_apollo_registration",
-  "version": "1.0.0",
-  "author": "Ashley Bibizadeh",
+  "name": "react-graphql-starter-kit",
+  "version": "2.0.0",
+  "author": "Anish M Prasad",
   "license": "MIT",
   "scripts": {
     "heroku-postbuild": "webpack --config webpack.server.js && webpack --config webpack.client.js",
