@@ -1,4 +1,5 @@
-# Open Source Universal User Registration System – NodeJS React Apollo GraphQL JWT MongoDB
+# React Graphql Starter Kit
+
 
 
 ##### Introduction (Getting started)
