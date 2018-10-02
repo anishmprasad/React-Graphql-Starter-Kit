@@ -1,11 +1,11 @@
-import React, { Fragment } from 'react';
+import React, { Component,Fragment } from 'react';
 import { GET_ALL_USERS } from './../queries';
 import { Query } from 'react-apollo';
 import webConfig from './../../webConfig';
 import { Helmet } from 'react-helmet';
 import { NavLink } from 'react-router-dom';
 
-class Users extends React.Component {
+class Users extends Component {
 
     head() {
         return (

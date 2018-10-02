@@ -1,10 +1,10 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, Component } from 'react';
 import { NavLink } from 'react-router-dom';
 import webConfig from './../../webConfig';
 import withSession from './../hoc/withSession';
 import classNames from 'classnames';
 
-class SideBar extends React.Component {
+class SideBar extends Component {
 
     constructor(props) {
         super(props);

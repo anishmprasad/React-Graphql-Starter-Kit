@@ -7,7 +7,7 @@ import * as Cookies from 'es-cookie';
 import Signin from './../pages/auth/signIn';
 
 const withAuth = conditionFunc => Component => props => {
-
+    console.log(conditionFunc , Component , props)
     if (props.unitTesting === 'true') {
         return <Component {...props} />
     }
@@ -17,6 +17,7 @@ const withAuth = conditionFunc => Component => props => {
         <Query query={GET_CURRENT_USER}>
 
             {({ data, loading, error, refetch }) => {
+                console.log('conditionFunc',conditionFunc(data))
                 console.log('withAuth',data, loading, error, refetch)
 
                 if (loading) return null

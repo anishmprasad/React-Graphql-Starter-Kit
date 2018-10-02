@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import withAuth from './../hoc/withAuth';
 import { Helmet } from 'react-helmet';
 
-class Dashboard extends React.Component {
+class Dashboard extends Component {
 
     constructor(props) {
         super(props);

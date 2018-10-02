@@ -4,7 +4,7 @@ import Header from './../components/header';
 import Footer from './../components/footer';
 import SideBar from './../components/sidebar';
 
-class MainLayout extends React.Component {
+class MainLayout extends Component {
     constructor(props) {
         super(props)
     }

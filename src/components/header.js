@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { Component } from 'react';
 import webConfig from './../../webConfig';
 import { NavLink } from 'react-router-dom';
 
 import withSession from './../hoc/withSession';
 
-class Header extends React.Component {
+class Header extends Component {
 
     constructor(props) {
         super(props);
