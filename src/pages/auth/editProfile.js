@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from "react";
 import { Query } from 'react-apollo';
 import { GET_USER_PROFILE } from './../../queries';
 import { withRouter } from 'react-router-dom';
@@ -6,7 +6,7 @@ import { Helmet } from 'react-helmet';
 import withAuth from './../../hoc/withAuth';
 import EditProfileMutations from './../../components/auth/editProfile_mutations';
 
-class EditProfile extends React.Component {
+class EditProfile extends Component {
 
     constructor(props) {
         super(props);

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from "react";
 import classNames from 'classnames';
 import { Mutation } from 'react-apollo';
 import { SIGNUP_USER } from './../../queries';
@@ -18,7 +18,7 @@ const initialState = {
     passwordMatch: null
 }
 
-class Signup extends React.Component {
+class Signup extends Component {
 
     constructor(props) {
         super();
