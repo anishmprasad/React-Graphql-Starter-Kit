@@ -1,4 +1,4 @@
-import React, {Fragment} from 'react';
+import React, { Component,Fragment } from "react";
 import classNames from 'classnames';
 import {Mutation} from 'react-apollo';
 import { CHANGE_EMAIL, CHANGE_PASSWORD, GET_CURRENT_USER } from './../../queries';
@@ -16,7 +16,7 @@ const initialState = {
     passwordMatch: null
 }
 
-class UpdateAccount extends React.Component {
+class UpdateAccount extends Component {
 
     constructor(props){
         super();
